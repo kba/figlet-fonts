@@ -1,11 +1,19 @@
-FONTDIR = $(shell figlet -I2)
-FONTFILES = $(shell find -name '*.flf' -o -name *.flc *.tlf)
+.PHONY: watch serve
 
-install:
-	find . -regex '.*\(flf\|flc\|tlf\)$$' -exec cp -bt "$(FONTDIR)" "{}" \;
+figlet.js:
+	wget -O "$@" 'https://raw.githubusercontent.com/patorjk/figlet.js/master/lib/figlet.js'
 
-uninstall:
-	find . -regex '.*\(flf\|flc\|tlf\)$$'|while read i;do \
-		rm -rf "$(FONTDIR)/$$i"; \
-		if [ -e "$(FONTDIR)/$$i~" ];then mv "$(FONTDIR)/$$i~" "$(FONTDIR)/$$i";fi; \
-	done
+index.html: src/index.jade
+	jade -o . $<
+
+fontlist.txt: fonts
+	(cd fonts && ls *.?lf) > "$@"
+
+script.js: src/script.coffee
+	coffee -o . -c $<
+
+serve: index.html script.js fontlist.txt
+	python -m SimpleHTTPServer
+
+watch:
+	nodemon -w . -e jade,coffee -x make serve
