@@ -1,9 +1,37 @@
 html
 	head
 		script(src='http://code.jquery.com/jquery-3.0.0.min.js', integrity='sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=', crossorigin='anonymous')
+		style.
+			#output { border: 1px solid #ccc; }
+			#status { color: white; font-weight: bold; font-family: monospace; }
+			*[data-status="ok"]   { background-color: #090; }
+			*[data-status="wait"] { background-color: #990; }
+			*[data-status="err"]  { background-color: #900; }
+			*[data-color-theme='green on black'] { color: green; background: black; }
+			*[data-color-theme='white on black'] { color: white; background: black; }
+			*[data-color-theme='black on white'] { color: black; background: white; }
 	body
+		label(for="#font") Font
 		select#font
-		input#input(type='text', placeholder='your banner here')
-		pre#output
+		br
+		label(for="#input") Input Text
+		input#input(type='text', placeholder='your banner here', disabled=true)
+		br
+		label(for="#font-family") Color Theme
+		select#font-family
+			option Monospace
+			option mplus Nerd Font
+			option Courier
+			option DejaVu Sans Mono
+			option M+ 1m
+		br
+		label(for="#color-theme") Color Theme
+		select#color-theme
+			option black on white
+			option white on black
+			option green on black
+		br
+		span#status
+		pre#output(data-color-theme='white-on-black')
 		script(src="./figlet.js")
 		script(src="./script.js")
