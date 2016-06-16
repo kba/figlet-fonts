@@ -15,40 +15,28 @@ Alligator.flf
 Alphabet.flf
 Alpha.flf
 amc3line.flf
-AMC 3 Line.flf
 amc3liv1.flf
-AMC 3 Liv1.flf
 amcaaa01.flf
-AMC AAA01.flf
 amcneko.flf
 AMC Neko.flf
 amcrazo2.flf
-AMC Razor2.flf
 amcrazor.flf
-AMC Razor.flf
 amcslash.flf
-AMC Slash.flf
 amcslder.flf
-AMC Slider.flf
 amcthin.flf
-AMC Thin.flf
 amctubes.flf
-AMC Tubes.flf
 amcun1.flf
-AMC Untitled.flf
 ANSI Shadow.flf
 Arrows.flf
 ascii12.tlf
 ascii9.tlf
 ascii_new_roman.flf
-ASCII New Roman.flf
 Avatar.flf
 B1FF.flf
 Banner3-D.flf
 Banner3.flf
 Banner4.flf
 banner.flf
-Banner.flf
 Barbwire.flf
 Basic.flf
 Bear.flf
@@ -57,7 +45,6 @@ Benjamin.flf
 bigascii12.tlf
 bigascii9.tlf
 bigchief.flf
-Big Chief.flf
 Bigfig.flf
 big.flf
 Big.flf
@@ -79,7 +66,6 @@ Broadway.flf
 broadway_kb.flf
 Broadway KB.flf
 bubble.flf
-Bubble.flf
 Bulbhead.flf
 calgphy2.flf
 Caligraphy.flf
@@ -114,7 +100,6 @@ Def Leppard.flf
 Delta Corps Priest 1.flf
 Diamond.flf
 dietcola.flf
-Diet Cola.flf
 digital.flf
 Digital.flf
 Doh.flf
@@ -130,12 +115,10 @@ DWhistled.flf
 eftichess.flf
 eftifont.flf
 eftipiti.flf
-Efti Piti.flf
 eftirobot.flf
-Efti Robot.flf
+eftirobot_wide_space.flf
 eftitalic.flf
 eftiwall.flf
-Efti Wall.flf
 eftiwater.flf
 Electronic.flf
 Elite.flf
@@ -152,7 +135,6 @@ Flipped.flf
 flowerpower.flf
 Flower Power.flf
 fourtops.flf
-Four Tops.flf
 Fraktur.flf
 funface.flf
 Fun Face.flf
@@ -181,9 +163,7 @@ Hex.flf
 Hieroglyphs.flf
 Hollywood.flf
 horizontalleft.flf
-Horizontal Left.flf
 horizontalright.flf
-Horizontal Right.flf
 ICL-1900.flf
 Impossible.flf
 Invita.flf
@@ -208,7 +188,6 @@ Keyboard.flf
 Knob.flf
 Konto.flf
 kontoslant.flf
-Konto Slant.flf
 larry3d.flf
 LCD.flf
 lean.flf
@@ -218,7 +197,6 @@ letter.tlf
 lildevil.flf
 Lil Devil.flf
 lineblocks.flf
-Line Blocks.flf
 Linux.flf
 Lockergnome.flf
 Madrid.flf
@@ -233,11 +211,9 @@ Mini.flf
 miniwi.flf
 Mirror.flf
 mnemonic.flf
-Mnemonic.flf
 Modular.flf
 mono12.tlf
 mono9.tlf
-Morse2.flf
 Morse.flf
 Moscow.flf
 Mshebrew210.flf
@@ -254,7 +230,6 @@ O8.flf
 Octal.flf
 Ogre.flf
 oldbanner.flf
-Old Banner.flf
 OS2.flf
 pagga.tlf
 Patorjk-HeX.flf
@@ -262,7 +237,6 @@ Patorjk's Cheese.flf
 Pawp.flf
 Peaks.flf
 peaksslant.flf
-Peaks Slant.flf
 Pebbles.flf
 Pepper.flf
 Poison.flf
@@ -288,10 +262,8 @@ Runyc.flf
 rustofat.tlf
 rusto.tlf
 santaclara.flf
-Santa Clara.flf
 sblood.flf
 script.flf
-Script.flf
 Serifcap.flf
 shadow.flf
 Shadow.flf
@@ -299,17 +271,13 @@ Shimrod.flf
 Short.flf
 slant.flf
 Slant.flf
-Slant Relief.flf
 Slide.flf
 slscript.flf
 SL Script.flf
 smallcaps.flf
-Small Caps.flf
 small.flf
 Small.flf
-Small Poison.flf
 Small Script.flf
-Small Tengwar.flf
 smascii12.tlf
 smascii9.tlf
 smblock.tlf
@@ -343,13 +311,11 @@ Straight.flf
 Stronger Than All.flf
 Sub-Zero.flf
 swampland.flf
-Swamp Land.flf
 Swan.flf
 Sweet.flf
 Tanja.flf
 Tengwar.flf
 term.flf
-Term.flf
 Test1.flf
 The Edge.flf
 Thick.flf
@@ -359,7 +325,6 @@ Thorned.flf
 threepoint.flf
 Ticks.flf
 ticksslant.flf
-Ticks Slant.flf
 Tiles.flf
 Tinker-Toy.flf
 Tombstone.flf
@@ -369,13 +334,13 @@ Tsalagi.flf
 Tubular.flf
 Twisted.flf
 twopoint.flf
+ultima.flf
 Univers.flf
 usaflag.flf
 Varsity.flf
 Wavy.flf
 Weird.flf
 wetletter.flf
-Wet Letter.flf
 Whimsy.flf
 wideterm.tlf
 Wow.flf

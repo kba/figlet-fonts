@@ -1,10 +1,10 @@
-GITURL = "https://cdn.rawgit.com/kba/figlet-fonts/gh-pages"
+GITURL = "https://cdn.rawgit.com/kba/figlet-fonts/master"
 
 figlet.defaults fontPath: "#{GITURL}/fonts"
 
 loadFonts = (cb) ->
 	fonts = []
-	$.get "#{GITURL}/fontlist.txt", (textlist) ->
+	$.get "fontlist.txt", (textlist) ->
 		for font in textlist.split('\n')
 			font = font.replace /\..*$/, ''
 			$("#font").append $("<option>").html(font)

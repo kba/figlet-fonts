@@ -2,7 +2,7 @@
 (function() {
   var GITURL, loadFonts, render, setColorTheme, setCssFont, setStatus;
 
-  GITURL = "https://cdn.rawgit.com/kba/figlet-fonts/gh-pages";
+  GITURL = "https://cdn.rawgit.com/kba/figlet-fonts/master";
 
   figlet.defaults({
     fontPath: GITURL + "/fonts"
@@ -11,7 +11,7 @@
   loadFonts = function(cb) {
     var fonts;
     fonts = [];
-    return $.get(GITURL + "/fontlist.txt", function(textlist) {
+    return $.get("fontlist.txt", function(textlist) {
       var font, i, len, ref;
       ref = textlist.split('\n');
       for (i = 0, len = ref.length; i < len; i++) {
