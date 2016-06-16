@@ -6,8 +6,8 @@ figlet.js:
 index.html: src/index.jade
 	jade -o . $<
 
-fontlist.txt: fonts
-	(cd fonts && ls *.?lf) > "$@"
+fontlist.txt: ../fonts
+	(cd ../fonts && ls *.?lf) > "$@"
 
 script.js: src/script.coffee
 	coffee -o . -c $<
